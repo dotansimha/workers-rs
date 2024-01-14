@@ -12,26 +12,26 @@ readme = "../README.md"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-async-trait = "0.1.68"
-chrono = { version = "0.4.26", default-features = false, features = [
+async-trait = "0.1.77"
+chrono = { version = "0.4.31", default-features = false, features = [
     "wasmbind",
 ] }
 chrono-tz = { version = "0.8.5", default-features = false }
-futures-channel = "0.3.28"
-futures-util = { version = "0.3.28", default-features = false }
+futures-channel = "0.3.30"
+futures-util = { version = "0.3.30", default-features = false }
 http = "0.2.9"
-js-sys = "0.3.63"
+js-sys = "0.3.67"
 matchit = "0.4.6"
 pin-project = "1.1.0"
-serde = { version = "1.0.164", features = ["derive"] }
-serde_json = "1.0.96"
+serde = { version = "1.0.195", features = ["derive"] }
+serde_json = "1.0.111"
 tokio = { version = "1.28", default-features = false }
-url = "2.4.0"
-wasm-bindgen = "=0.2.89"
+url = "2.5.0"
+wasm-bindgen = "=0.2.90"
 wasm-bindgen-futures = "0.4.36"
 serde-wasm-bindgen = "0.6.1"
 serde_urlencoded = "0.7"
-wasm-streams = "0.3.0"
+wasm-streams = "0.4.0"
 worker-kv = "0.6.0"
 worker-macros = { path = "../worker-macros", version = "0.0.10" }
 worker-sys = { path = "../worker-sys", version = "0.0.10" }
